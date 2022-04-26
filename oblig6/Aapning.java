@@ -6,7 +6,7 @@ public class Aapning extends HvitRute {
 
 
      @Override
-     public String toString(){
+     public String toString() {
           return "(Åpning: " + radNummer + "," + kolonneNummer + " ." + ")";
           //return "(" + "Sort rute: " + radNummer + "," + kolonneNummer + ")";
           //return "(" + "Sort rute: " + radNummer + "," + kolonneNummer + " tilhører labyrint: " +  lab + ")";
