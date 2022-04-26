@@ -1,0 +1,37 @@
+# Pasienter (navn, fnr)
+Jens Hans Olsen,11111143521
+Petrolina Swiq,24120099343
+Sven Svendsen,10111224244
+Juni Olsen,21049563451
+
+# Legemidler (navn,type,pris,virkestoff,[styrke]) Predizol,narkotisk,450,75,8
+Paralgin Forte,vanedannende,65,400,5 Placebo Pianissimo,vanlig,10,0 Ibux,vanlig,240,200
+
+# Leger (navn,kontrollid / 0 hvis vanlig lege)
+Hvilken pasient vil du se resepter for?
+0: Anne (fnr 12121212121)
+1: Johnny (fnr 32323232323)
+
+Hvilken resept vil du bruke?
+0: Prozac (3 reit)
+1: Ibux (2 reit)
+2: Paracet (0 reit)
+
+Hvilken pasient vil du se resepter for?
+0: Anne (fnr 12121212121)
+1: Johnny (fnr 32323232323)
+
+Hvilken resept vil du bruke?
+0: Prozac (3 reit)
+1: Ibux (1 reit)
+2: Paracet (0 reit)
+
+Dr. Cox,0
+Dr. Wilson,0
+Dr. House,12345
+Dr. Hillestad Lovold,98765
+
+# Resepter (legemiddelNummer,legeNavn,pasientID,type,[reit]) 2,Dr. Cox,2,hvit,7
+1,Dr. Hillestad Lovold,3,blaa,1000
+3,Dr. House,1,militaer
+4,Dr. Hillestad Lovold,3,p,25
