@@ -93,7 +93,7 @@ class SortRute extends Rute {
 
 
      @Override
-     public String toString(){
+     public String toString() {
           return "(Sort rute: " + radNummer + "," + kolonneNummer + " #" + ")";
           //return "(" + "Sort rute: " + radNummer + "," + kolonneNummer + ")";
           //return "(" + "Sort rute: " + radNummer + "," + kolonneNummer + " tilhører labyrint: " +  lab + ")";
