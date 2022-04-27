@@ -63,7 +63,6 @@ public class Labyrint {
                     } else if (!linjer[tmp_kol_looper].contains(".") && (tmp_linje_locator == 1 || tmp_linje_locator == antall_rader)){
                          SortRute sr = new SortRute(tmp_rad_locator, tmp_kol_looper, this);
                          opprettSortRute(sr);
-                         //opprettNyRute(tmp_rad_locator, tmp_kol_looper, "#");
                          //System.out.println(sr);
                     
 //-------denne delen finner Aapninger på starten og slutten(høyre/venstre side) av hver kolonne på hver linje i labyrinten-------//
@@ -78,12 +77,10 @@ public class Labyrint {
                          } else if (linjer[tmp_kol_looper].contains("#")){
                               SortRute sr2 = new SortRute(tmp_rad_locator, tmp_kol_looper, this);
                               opprettSortRute(sr2);
-                              //opprettNyRute(tmp_rad_locator, tmp_kol_looper, "#");
                               //System.out.println(sr2);
                          } else if (linjer[tmp_kol_looper].contains(".")){
                               HvitRute hr = new HvitRute(tmp_rad_locator, tmp_kol_looper, this);
                               opprettHvitRute(hr);
-                              //opprettNyRute(tmp_rad_locator, tmp_kol_looper, ".");
                               //System.out.println(hr);
                          }
                     }
@@ -143,22 +140,6 @@ public class Labyrint {
 
           private Node(Rute rute){
                this.rute = rute;
-          }
-     }
-     */
-
-     /*
-     public void opprettNyRute(int rad, int kol, String symbol){
-          if (symbol.equals(".")){
-          //if (symbol.contains(".")){
-               maze[rad][kol] = new HvitRute(rad, kol, this);
-          
-          } else if (symbol.equals("#")){
-          //else if (symbol.contains("#")){
-               maze[rad][kol] = new SortRute(rad, kol, this);
-          } else {
-               System.out.println("Beklager, det symbolet er ugyldig i dette programmet!");
-               System.out.println("Tast inn enten ./#");
           }
      }
      */
