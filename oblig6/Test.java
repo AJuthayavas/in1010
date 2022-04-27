@@ -1,8 +1,9 @@
 import java.io.FileNotFoundException;
 
-public class Test { 
+public class Test {
      public static void main(String[] args) {
           String fil = "labyrinter/1.in";
+          //String fil = "labyrinter/custom.in";
 
           try {
                Labyrint l = new Labyrint(fil);
