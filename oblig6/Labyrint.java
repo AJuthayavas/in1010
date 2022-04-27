@@ -9,7 +9,6 @@ public class Labyrint {
      int antallKolonner; // x akse ( <--> )
      // RUTE = (y, x)
      Rute[][] maze;// = new Rute[antallRader][antallKolonner];
-     //char[][] labyrint;// = new Rute[antallRader][antallKolonner];
      Labyrint lab;
      static ArrayList<String> listeOverHverEnesteLinjeIfilen = new ArrayList<>();
 
