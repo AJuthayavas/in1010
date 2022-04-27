@@ -32,7 +32,7 @@ public class Labyrint {
           // dette er print loopen
           // midlertidig test, for å sjekke om ting oppfører seg som det skal
           // UPDATE! se metode tegnOppabyrint() --> den gjør akkurat det denne loopen gjør
-          // UPDATE 2! for at metoden skal funke må loopen være aktiv, men printinga (linje 42) kan kommenteres vekk
+          // UPDATE 2! for at metoden skal funke må loopen være aktiv, men printinga (linje 41) kan kommenteres vekk
           while (sc2.hasNextLine()){
                String l = sc2.nextLine();
                listeOverHverEnesteLinjeIfilen.add(l);
