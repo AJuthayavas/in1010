@@ -8,6 +8,9 @@ public class Test {
           System.out.println(l);
 
           l.tegnOppLabyrinten();
+          System.out.println("-----------");
+          System.out.println();
+          System.out.println(l.toString());
      }
      
 }
