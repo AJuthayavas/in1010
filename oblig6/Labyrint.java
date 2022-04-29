@@ -152,8 +152,8 @@ public class Labyrint {
      }
      */
 
-     public void opprettHvitRute(HvitRute sr){
-          maze[sr.hentRadNummer(sr)][sr.hentKolonneNummer(sr)] = new HvitRute(sr.hentRadNummer(sr), sr.hentKolonneNummer(sr), this);    
+     public void opprettHvitRute(HvitRute hr){
+          maze[hr.hentRadNummer(hr)][hr.hentKolonneNummer(hr)] = new HvitRute(hr.hentRadNummer(hr), hr.hentKolonneNummer(hr), this);    
      }
 
      public void opprettSortRute(SortRute sr){

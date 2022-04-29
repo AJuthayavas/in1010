@@ -6,6 +6,7 @@ public class Test {
           Labyrint l = new Labyrint(fil);
           //l.skrivUtKordinater();
           System.out.println(l);
+          System.out.println(l.getClass());
 
           //l.tegnOppLabyrinten();
           //System.out.println(l.toString());
