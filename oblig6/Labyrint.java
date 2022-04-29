@@ -138,20 +138,6 @@ public class Labyrint {
      }
 
 
-
-
-
-     /*
-     private class Node{
-          Node neste;
-          Rute rute;
-
-          private Node(Rute rute){
-               this.rute = rute;
-          }
-     }
-     */
-
      public void opprettHvitRute(HvitRute hr){
           maze[hr.hentRadNummer(hr)][hr.hentKolonneNummer(hr)] = new HvitRute(hr.hentRadNummer(hr), hr.hentKolonneNummer(hr), this);    
      }
