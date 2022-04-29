@@ -100,7 +100,8 @@ public class Labyrint {
      } // avslutt konstruktør
 
 
-     // væit ikke om denne funker, men så langt er denne en innafor metode å hente neste utvei
+     // væit ikke om denne funker, men så langt er denne en innafor metode
+     // finn() kommer fra Rute.java
      public void finnUtveiFra(int rad, int kol){
           visDenneRuten(rad, kol).finn(visDenneRuten(rad, kol));
      }
