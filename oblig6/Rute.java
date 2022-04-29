@@ -9,8 +9,6 @@ public abstract class Rute { // OPPRETTELSE AV OBJEKT AV KLASSE RUTE ER ULOVLIG,
      Rute naboRuteSoer;
      Rute naboRuteOest;
      Rute naboRuteVest;
-     Rute nabo;
-
      Rute fra;
      
      // konstruktør --> Koordinater (x, y)

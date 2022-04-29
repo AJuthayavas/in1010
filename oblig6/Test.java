@@ -7,10 +7,8 @@ public class Test {
           //l.skrivUtKordinater();
           System.out.println(l);
 
-          l.tegnOppLabyrinten();
-          System.out.println("-----------");
-          System.out.println();
-          System.out.println(l.toString());
+          //l.tegnOppLabyrinten();
+          //System.out.println(l.toString());
      }
      
 }
